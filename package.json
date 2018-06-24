@@ -27,5 +27,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/atlassubbed/atlas-bind-methods.git"
-  }
+  },
+  "keywords": [
+    "atlassubbed", "utils", "utility", "binding", "methods"
+  ]
 }
