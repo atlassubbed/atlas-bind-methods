@@ -1,4 +1,7 @@
 # atlas-bind-methods
+
+Binds an instance's prototype methods to itself.
+
 ---
 
 ## Why
