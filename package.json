@@ -1,6 +1,6 @@
 {
   "name": "atlas-bind-methods",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Binds an instance's prototype methods to itself.",
   "scripts": {
     "test-server": "mocha --colors --watch --recursive './test/**/*.test.js'",
@@ -28,6 +28,10 @@
     "url": "https://github.com/atlassubbed/atlas-bind-methods.git"
   },
   "keywords": [
-    "atlassubbed", "utils", "utility", "binding", "methods"
+    "atlassubbed",
+    "utils",
+    "utility",
+    "binding",
+    "methods"
   ]
 }
