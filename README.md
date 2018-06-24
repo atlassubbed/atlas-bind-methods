@@ -64,3 +64,9 @@ rawr() // meow!
 ## Caveats
 
 This doesn't support subclassing, so it would only pre-bind the prototype methods of the direct constructor which is used to instantiate the object.
+
+## Install
+
+```
+npm install --save atlas-bind-methods
+```
