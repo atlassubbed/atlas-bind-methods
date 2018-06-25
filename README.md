@@ -4,7 +4,7 @@ Binds an instance's prototype methods to itself.
 
 ---
 
-## Why
+## why
 
 Suppose you have a class which uses instance variables in its methods:
 
@@ -39,7 +39,7 @@ rawr() // meow!
 
 But, this is kind of annoying when I have to do this for many methods. Enter `atlas-bind-methods`...
 
-## Example
+## example
 
 This package provides a concise function which lets you do the binding in one line:
 
@@ -61,11 +61,11 @@ const rawr = cat.rawr;
 rawr() // meow!
 ```
 
-## Caveats
+## caveats
 
 This doesn't support subclassing, so it would only pre-bind the prototype methods of the direct constructor which is used to instantiate the object.
 
-## Install
+## install
 
 ```
 npm install --save atlas-bind-methods
