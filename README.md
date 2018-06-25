@@ -45,7 +45,7 @@ rawr() // meow!
 
 But, this is kind of annoying when I have to do this for many methods. Enter `atlas-bind-methods`...
 
-## example
+## examples
 
 This package provides a concise function which lets you do the binding in one line:
 
