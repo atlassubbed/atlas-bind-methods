@@ -4,6 +4,12 @@ Binds an instance's prototype methods to itself.
 
 ---
 
+## install
+
+```
+npm install --save atlas-bind-methods
+```
+
 ## why
 
 Suppose you have a class which uses instance variables in its methods:
@@ -64,9 +70,3 @@ rawr() // meow!
 ## caveats
 
 This doesn't support subclassing, so it would only pre-bind the prototype methods of the direct constructor which is used to instantiate the object.
-
-## install
-
-```
-npm install --save atlas-bind-methods
-```
