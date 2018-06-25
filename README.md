@@ -43,11 +43,11 @@ const rawr = cat.rawr.bind(cat)
 rawr() // meow!
 ```
 
-But, this is kind of annoying when I have to do this for many methods. Enter `atlas-bind-methods`...
+But, this is kind of annoying when I have to do this for many methods. With this package, we can do all of the binding without cluttering our business logic.
 
 ## examples
 
-This package provides a concise function which lets you do the binding in one line:
+#### inline
 
 ```javascript
 const Animal = require("./Animal");
@@ -57,7 +57,7 @@ const rawr = cat.rawr;
 rawr() // meow!
 ```
 
-Or, if you prefer the side effect, that's fine too:
+#### as a side-effect
 
 ```javascript
 ...
