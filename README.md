@@ -2,6 +2,8 @@
 
 Binds an instance's prototype methods to itself.
 
+[![Travis](https://img.shields.io/travis/atlassubbed/atlas-bind-methods.svg)](https://travis-ci.org/atlassubbed/atlas-bind-methods)
+
 ---
 
 ## install
